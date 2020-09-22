@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-nav{
+       background-color: #8B191D;
+       height: 45;
+     
+}
+.top-icons{
+    margin-left: 40px;
+    
+}
+.twitt{
+    font-size: 30px;
+    color: wheat;
+    background-color: #00ACED;
+    height: 45px;
+    width: 45px;
+    padding: 12px 12px 12px 15px;
+}
+.insta{
+    font-size: 30px;
+    color: wheat;
+    background-color: #517FA4;
+    height: 45px;
+    width: 45px;
+    padding: 12px 12px 12px 15px;
+    
+}
+.face{
+    font-size: 30px;
+    color: wheat;
+    background-color: #3B5998;
+    height: 45px;
+    width: 45px;
+    padding: 12px 12px 12px 15px;
+}
+
+.top-list{
+    width: 630px;
+    height: 40px;
+    margin-left: 420px;
+    align-items: center;
+    justify-content: center;
+}
+.top-list>ul{
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    color: whitesmoke;
+    justify-content: space-around;
+}
+/* 2nd navbar */
+.logo2{
+     width: 130px;
+     height: 40px;
+}
+.nav-head{
+    color: white;
+    height: 100px;
+}
+.second-bar-link{
+    color: wheat;
+}
+
+.nav-list>ul{
+    margin-left: 330px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.logo2{
+    margin-left: 50px;
+    width: 200px;
+}
+.carousel-inner{
+    height: 500px;
+    position: relative;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(jan.otf);
+  }
+
+
+
+.slider-text{
+    position: absolute;
+    display: inline-block;
+    margin-top: -300px;
+    margin-left: 200px;
+    color: white;
+    font-family:  myFirstFont;
+    
+    
+}
+
+.destination{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #000000;
+    
+}
+.img-cards{
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(54, 49, 49);
+}
+.img-mid{
+   width: 100%;
+   height: 380px;
+   opacity: 20;
+   position: relative;
+   margin-top: 30px;
+} 
+
+
+
+.mid-img-text{
+    position: absolute;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 130px;
+    
+    
+}
+
+
+/* popular-images */
+.popular-images{
+
+}
