@@ -5,13 +5,9 @@
 
 .top-nav{
        background-color: #8B191D;
-       height: 45;
-     
+       height: 45px;
 }
-.top-icons{
-    margin-left: 40px;
-    
-}
+
 .twitt{
     font-size: 30px;
     color: wheat;
@@ -19,6 +15,7 @@
     height: 45px;
     width: 45px;
     padding: 12px 12px 12px 15px;
+    margin-left: 80px;
 }
 .insta{
     font-size: 30px;
@@ -38,21 +35,19 @@
     padding: 12px 12px 12px 15px;
 }
 
-.top-list{
-    width: 630px;
-    height: 40px;
-    margin-left: 420px;
-    align-items: center;
-    justify-content: center;
+.top-right-adress{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: blanchedalmond;
+     justify-content: space-between;
+     flex-wrap: wrap;
 }
-.top-list>ul{
-    margin-top: 10px;
-    list-style: none;
-    display: flex;
-    color: whitesmoke;
-    justify-content: space-around;
-}
+
 /* 2nd navbar */
+.navbar{
+    background-color: seashell;
+}
 .logo2{
      width: 130px;
      height: 40px;
@@ -64,7 +59,10 @@
 .second-bar-link{
     color: wheat;
 }
-
+a.dropdown-item:hover{
+     background-color: rgb(63, 24, 68);
+      color: seashell;
+}
 .nav-list>ul{
     margin-left: 330px;
     font-size: 18px;
@@ -97,6 +95,7 @@
     
 }
 
+
 .destination{
     width: 100%;
     height: 150px;
@@ -126,23 +125,80 @@
    margin-top: 30px;
 } 
 
-
-
-.mid-img-text{
+.relative-area{
+      position: relative;
+}
+.text-box{
     position: absolute;
-    display: flex;
-    color: #fff;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    margin-left: 120px;
-    margin-top: 130px;
-    
-    
+     left: 0;
+     right: 0;
+    transform: translate(y);
+     top: 50%;
+     text-align: center;
+     
+    }
+
+
+    .heading{
+         font-weight: 900;
+         font-size: 25px;
+        color:#ffff;
+        display: inline-block;
+         margin-top: -100px;
+    }
+  .text-box-text{
+         color:rgb(216, 215, 215);
+          font-size: 18px;
+          text-justify: auto;
+
+          
+  }
+
+/* media qrries */
+@media only screen and (max-width: 500px) {
+    .top {
+       width: 100%;
+       height: 40px;
+       background-color: rgb(51, 40, 40);
+    }
+    .adress-top{
+        height: 140px;
+        background-color: #8B191D;
+    }
+  
+     
 }
 
 
-/* popular-images */
-.popular-images{
-
+@media only screen and (max-width: 500px) {
+      .pop{
+           margin-top: -500px;
+           margin-left: -30px;
+           display: inline-block;
+      }
+     
+           
+    
+    .text-box{
+        position: absolute;
+         left: 0;
+         right: 0;
+        transform: translate(y);
+         top: 20%;
+         text-align: center;
+         
+        }
+   .text-box-text{
+         font-size: 12px;
+         text-justify: auto; 
+        
+         
 }
+   .heading{
+       margin-top: -10px;
+   }
+   #respon{
+            margin-left: 40px; 
+            margin-top: -200px;
+   }
+ }
